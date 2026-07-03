@@ -8,7 +8,7 @@ Data platform engineer — 15 years building the data systems traders and analys
 
 - Contributing to **Apache Arrow .NET** — [IPC compression support for Flight clients](https://github.com/apache/arrow-dotnet/pull/285) (3.5× faster large queries against our production server)
 - **Measured evaluations of columnar formats** — Vortex (FastLanes / ALP / FSST) vs Parquet vs Arrow IPC on 73M rows of real energy-market data: storage, serving latency, and object-storage behaviour
-- Years ago I **reverse-engineered QlikView's QVD binary format** and wrote a C# codec for it from scratch — header symbol tables + bit-stuffed index tokens. Dictionary encoding got to me early.
+- Reverse-engineered QlikView's undocumented QVD binary format and wrote [**qvd-dotnet**](https://github.com/balicat/qvd-dotnet) — a zero-dependency .NET reader/writer, header symbol tables + bit-stuffed index tokens, dual values, CLI included. Dictionary encoding got to me early.
 
 **Stack:** Python · C++ · C# / .NET · SQL · Rust — Arrow, Parquet, Iceberg, DuckDB, DataFusion, Polars, Dagster, Snowflake
 
