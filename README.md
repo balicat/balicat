@@ -6,7 +6,7 @@ Data platform engineer — 15 years building the data systems traders and analys
 
 **I like going a layer deeper than most:**
 
-- Contributing to **Apache Arrow .NET** — [IPC compression support for Flight clients](https://github.com/apache/arrow-dotnet/pull/285) (3.5× faster large queries against our production server)
+- **Apache Arrow .NET contributor (merged)** — [IPC compression support for Flight clients](https://github.com/apache/arrow-dotnet/pull/285) (3.5× faster large queries against our production server)
 - **Measured evaluations of columnar formats** — Vortex (FastLanes / ALP / FSST) vs Parquet vs Arrow IPC on 73M rows of real energy-market data: storage, serving latency, and object-storage behaviour
 - Reverse-engineered QlikView's undocumented QVD binary format and wrote [**qvd-dotnet**](https://github.com/balicat/qvd-dotnet) — a zero-dependency .NET reader/writer, header symbol tables + bit-stuffed index tokens, dual values, CLI included. Not my first: in the '90s Microsoft told me the Works database format was proprietary, so I worked it out myself in Borland C — change one value, diff the binary, repeat. Dictionary encoding got to me early.
 
